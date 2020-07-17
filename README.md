@@ -48,7 +48,7 @@ Things you may want to cover:
 ### Association
 
 -has_many :room_users
--has_many :room_users through:room_users
+-has_many :users through:room_users
 -has_many :messages
 
 
@@ -58,7 +58,7 @@ Things you may want to cover:
 | -------- | ------- | ----------- | 
 | content  | string  | null: false |
 | user_id  | integer | null: false |
-| room-id  | integer | null: false |
+| room_id  | integer | null: false |
 
 ### Association
 
